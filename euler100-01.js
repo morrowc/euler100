@@ -1,7 +1,7 @@
 function multiplesOf3and5(number) {
   let r = 0;
   var x;
-  for (x=0; x<= number; x++) {
+  for (x=0; x< number; x++) {
     if ((x % 3 == 0) || (x % 5 == 0 )) {
       r += x;
     }
