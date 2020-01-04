@@ -1,16 +1,15 @@
 function multiplesOf3and5(number) {
-  let three = 0;
+  let r = 0;
   var x;
   for (x=0; x<= number; x++) {
     if ((x % 3 == 0) || (x % 5 == 0 )) {
-      three += x;
+      r += x;
     }
-      }
-  return three;
+  }
+  return r;
 }
 
 var r;
-r = multiplesOf3and5(8456);
-console.log("Result:")
+r = multiplesOf3and5(1000);
 console.log(r);
 
